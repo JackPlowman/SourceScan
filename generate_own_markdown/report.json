@@ -1,6 +1,6 @@
 {
   "version": "0.13.0",
-  "uuid": "11803d13-87b3-458f-9200-20fefbc9607c",
+  "uuid": "8773fa6f-51ac-4a16-bcf2-ee32e681f4dc",
   "root": "/github/workspace",
   "codebase": {
     "totals": {
@@ -90,7 +90,7 @@
         ]
       },
       "scanner/utils/write_markdown.py": {
-        "checksum": "a20ebb1549447bf004a5fccd41054e60",
+        "checksum": "f09e6253d012b1511f9dffe7b2d7cc30",
         "language": "Python",
         "loc": 44,
         "profile": [35, 0, 0, 0],
@@ -100,7 +100,7 @@
           {"unit_name": "write", "start": {"line": 35, "column": 5}, "end": {"line": 38, "column": 51}, "value": 4},
           {"unit_name": "_check_last_line_is_empty", "start": {"line": 40, "column": 5}, "end": {"line": 42, "column": 51}, "value": 3},
           {"unit_name": "add_header", "start": {"line": 44, "column": 5}, "end": {"line": 48, "column": 67}, "value": 5},
-          {"unit_name": "add_paragraph", "start": {"line": 50, "column": 5}, "end": {"line": 52, "column": 53}, "value": 3},
+          {"unit_name": "add_paragraph", "start": {"line": 50, "column": 5}, "end": {"line": 52, "column": 58}, "value": 3},
           {"unit_name": "add_table", "start": {"line": 54, "column": 5}, "end": {"line": 62, "column": 43}, "value": 9}
         ]
       },
