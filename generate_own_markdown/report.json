@@ -1,12 +1,12 @@
 {
   "version": "0.12.1",
-  "uuid": "f0fd86be-8498-4c64-9b31-efd34951f7d2",
+  "uuid": "1e10d719-fc97-49af-a90e-2c6ef1a23e4b",
   "root": "/github/workspace",
   "codebase": {
     "totals": {
       "Python": {
         "files": 10,
-        "lines_of_code": 185,
+        "lines_of_code": 176,
         "functions": 17,
         "hard_to_maintain": 0,
         "unmaintainable": 0
@@ -18,7 +18,7 @@
           "__init__.py",
           "scanner/"
         ],
-        "profile": [121, 0, 0, 0]
+        "profile": [129, 0, 0, 0]
       },
       "scanner/": {
         "entries": [
@@ -27,7 +27,7 @@
           "__main__.py",
           "utils/"
         ],
-        "profile": [121, 0, 0, 0]
+        "profile": [129, 0, 0, 0]
       },
       "scanner/utils/": {
         "entries": [
@@ -38,7 +38,7 @@
           "custom_logging.py",
           "types.py"
         ],
-        "profile": [99, 0, 0, 0]
+        "profile": [107, 0, 0, 0]
       }
     },
     "files": {
@@ -90,18 +90,18 @@
         ]
       },
       "scanner/utils/write_markdown.py": {
-        "checksum": "e72334f852cd3e8b1d547272015647c6",
+        "checksum": "b38f4371f055f7c7438b46446d5b9540",
         "language": "Python",
-        "loc": 55,
-        "profile": [29, 0, 0, 0],
+        "loc": 46,
+        "profile": [37, 0, 0, 0],
         "measurements": [
-          {"unit_name": "write_output_file", "start": {"line": 12, "column": 1}, "end": {"line": 20, "column": 37}, "value": 5},
+          {"unit_name": "write_output_file", "start": {"line": 11, "column": 1}, "end": {"line": 36, "column": 26}, "value": 11},
           {"unit_name": "__init__", "start": {"line": 45, "column": 5}, "end": {"line": 48, "column": 35}, "value": 4},
           {"unit_name": "write", "start": {"line": 50, "column": 5}, "end": {"line": 53, "column": 51}, "value": 4},
           {"unit_name": "_check_last_line_is_empty", "start": {"line": 55, "column": 5}, "end": {"line": 57, "column": 47}, "value": 3},
           {"unit_name": "add_header", "start": {"line": 59, "column": 5}, "end": {"line": 63, "column": 64}, "value": 5},
           {"unit_name": "add_paragraph", "start": {"line": 65, "column": 5}, "end": {"line": 67, "column": 53}, "value": 3},
-          {"unit_name": "add_table", "start": {"line": 69, "column": 5}, "end": {"line": 73, "column": 41}, "value": 5}
+          {"unit_name": "add_table", "start": {"line": 69, "column": 5}, "end": {"line": 77, "column": 41}, "value": 7}
         ]
       },
       "scanner/utils/github_interactions.py": {
