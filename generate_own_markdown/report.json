@@ -1,13 +1,13 @@
 {
   "version": "0.12.1",
-  "uuid": "ee632af9-46f0-453a-8bde-f2c417c11fdd",
+  "uuid": "e846783a-7366-4018-a932-fba767a98abf",
   "root": "/github/workspace",
   "codebase": {
     "totals": {
       "Python": {
         "files": 10,
-        "lines_of_code": 179,
-        "functions": 18,
+        "lines_of_code": 176,
+        "functions": 17,
         "hard_to_maintain": 0,
         "unmaintainable": 0
       }
@@ -18,7 +18,7 @@
           "__init__.py",
           "scanner/"
         ],
-        "profile": [132, 0, 0, 0]
+        "profile": [128, 0, 0, 0]
       },
       "scanner/": {
         "entries": [
@@ -27,7 +27,7 @@
           "__main__.py",
           "utils/"
         ],
-        "profile": [132, 0, 0, 0]
+        "profile": [128, 0, 0, 0]
       },
       "scanner/utils/": {
         "entries": [
@@ -38,7 +38,7 @@
           "custom_logging.py",
           "types.py"
         ],
-        "profile": [110, 0, 0, 0]
+        "profile": [106, 0, 0, 0]
       }
     },
     "files": {
@@ -90,19 +90,18 @@
         ]
       },
       "scanner/utils/write_markdown.py": {
-        "checksum": "ad2d570ad439ff539f4fa2e3a26d19d2",
+        "checksum": "b262ed849cffa0d2b77463edd4229053",
         "language": "Python",
-        "loc": 49,
-        "profile": [40, 0, 0, 0],
+        "loc": 46,
+        "profile": [36, 0, 0, 0],
         "measurements": [
-          {"unit_name": "write_output_file", "start": {"line": 11, "column": 1}, "end": {"line": 26, "column": 34}, "value": 12},
-          {"unit_name": "__init__", "start": {"line": 35, "column": 5}, "end": {"line": 38, "column": 35}, "value": 4},
-          {"unit_name": "write", "start": {"line": 40, "column": 5}, "end": {"line": 43, "column": 37}, "value": 4},
-          {"unit_name": "_check_last_line_is_empty", "start": {"line": 45, "column": 5}, "end": {"line": 47, "column": 47}, "value": 3},
-          {"unit_name": "add_header", "start": {"line": 49, "column": 5}, "end": {"line": 53, "column": 64}, "value": 5},
-          {"unit_name": "add_paragraph", "start": {"line": 55, "column": 5}, "end": {"line": 57, "column": 53}, "value": 3},
-          {"unit_name": "add_table", "start": {"line": 59, "column": 5}, "end": {"line": 63, "column": 41}, "value": 5},
-          {"unit_name": "write_to_file", "start": {"line": 65, "column": 5}, "end": {"line": 68, "column": 51}, "value": 4}
+          {"unit_name": "write_output_file", "start": {"line": 12, "column": 1}, "end": {"line": 27, "column": 26}, "value": 12},
+          {"unit_name": "__init__", "start": {"line": 36, "column": 5}, "end": {"line": 39, "column": 35}, "value": 4},
+          {"unit_name": "write", "start": {"line": 41, "column": 5}, "end": {"line": 44, "column": 51}, "value": 4},
+          {"unit_name": "_check_last_line_is_empty", "start": {"line": 46, "column": 5}, "end": {"line": 48, "column": 47}, "value": 3},
+          {"unit_name": "add_header", "start": {"line": 50, "column": 5}, "end": {"line": 54, "column": 64}, "value": 5},
+          {"unit_name": "add_paragraph", "start": {"line": 56, "column": 5}, "end": {"line": 58, "column": 53}, "value": 3},
+          {"unit_name": "add_table", "start": {"line": 60, "column": 5}, "end": {"line": 64, "column": 41}, "value": 5}
         ]
       },
       "scanner/utils/github_interactions.py": {
