@@ -1,0 +1,144 @@
+{
+  "version": "0.13.0",
+  "uuid": "188f62b2-7311-4e84-911f-87af12795ed1",
+  "root": "/github/workspace",
+  "codebase": {
+    "totals": {
+      "Python": {
+        "files": 10,
+        "lines_of_code": 174,
+        "functions": 17,
+        "hard_to_maintain": 0,
+        "unmaintainable": 0
+      }
+    },
+    "tree": {
+      "./": {
+        "entries": [
+          "__init__.py",
+          "scanner/"
+        ],
+        "profile": [127, 0, 0, 0]
+      },
+      "scanner/": {
+        "entries": [
+          "app.py",
+          "__init__.py",
+          "__main__.py",
+          "utils/"
+        ],
+        "profile": [127, 0, 0, 0]
+      },
+      "scanner/utils/": {
+        "entries": [
+          "read_markdown.py",
+          "write_markdown.py",
+          "github_interactions.py",
+          "__init__.py",
+          "custom_logging.py",
+          "types.py"
+        ],
+        "profile": [105, 0, 0, 0]
+      }
+    },
+    "files": {
+      "__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "scanner/app.py": {
+        "checksum": "be3e87ab02c57ec30564f7ed600f050e",
+        "language": "Python",
+        "loc": 23,
+        "profile": [18, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "generate_tech_report", "start": {"line": 10, "column": 1}, "end": {"line": 15, "column": 35}, "value": 6},
+          {"unit_name": "summarise_tech_report", "start": {"line": 18, "column": 1}, "end": {"line": 36, "column": 77}, "value": 12}
+        ]
+      },
+      "scanner/__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "scanner/__main__.py": {
+        "checksum": "459ad6f1b1fb960928e40b4f26eb4e1f",
+        "language": "Python",
+        "loc": 8,
+        "profile": [4, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "main", "start": {"line": 5, "column": 1}, "end": {"line": 8, "column": 27}, "value": 4}
+        ]
+      },
+      "scanner/utils/read_markdown.py": {
+        "checksum": "3bf8e0c0cf64dea7fb0a6024e75d8f77",
+        "language": "Python",
+        "loc": 42,
+        "profile": [38, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "find_technologies_and_frameworks", "start": {"line": 10, "column": 1}, "end": {"line": 34, "column": 39}, "value": 15},
+          {"unit_name": "find_project_technologies_and_frameworks_header", "start": {"line": 37, "column": 1}, "end": {"line": 53, "column": 42}, "value": 10},
+          {"unit_name": "find_table_data_start_index", "start": {"line": 56, "column": 1}, "end": {"line": 71, "column": 27}, "value": 6},
+          {"unit_name": "find_markdown_badges", "start": {"line": 74, "column": 1}, "end": {"line": 87, "column": 25}, "value": 7}
+        ]
+      },
+      "scanner/utils/write_markdown.py": {
+        "checksum": "f09e6253d012b1511f9dffe7b2d7cc30",
+        "language": "Python",
+        "loc": 44,
+        "profile": [35, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "write_output_file", "start": {"line": 11, "column": 1}, "end": {"line": 21, "column": 26}, "value": 7},
+          {"unit_name": "__init__", "start": {"line": 30, "column": 5}, "end": {"line": 33, "column": 35}, "value": 4},
+          {"unit_name": "write", "start": {"line": 35, "column": 5}, "end": {"line": 38, "column": 51}, "value": 4},
+          {"unit_name": "_check_last_line_is_empty", "start": {"line": 40, "column": 5}, "end": {"line": 42, "column": 51}, "value": 3},
+          {"unit_name": "add_header", "start": {"line": 44, "column": 5}, "end": {"line": 48, "column": 67}, "value": 5},
+          {"unit_name": "add_paragraph", "start": {"line": 50, "column": 5}, "end": {"line": 52, "column": 58}, "value": 3},
+          {"unit_name": "add_table", "start": {"line": 54, "column": 5}, "end": {"line": 62, "column": 43}, "value": 9}
+        ]
+      },
+      "scanner/utils/github_interactions.py": {
+        "checksum": "b677075bb6c9e3958d3352203a0537da",
+        "language": "Python",
+        "loc": 35,
+        "profile": [26, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "retrieve_repositories", "start": {"line": 17, "column": 1}, "end": {"line": 31, "column": 24}, "value": 11},
+          {"unit_name": "scrape_technologies", "start": {"line": 34, "column": 1}, "end": {"line": 55, "column": 47}, "value": 15}
+        ]
+      },
+      "scanner/utils/__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "scanner/utils/custom_logging.py": {
+        "checksum": "18340647ef2f27198f91cd2bd3104ba7",
+        "language": "Python",
+        "loc": 9,
+        "profile": [6, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "set_up_custom_logging", "start": {"line": 7, "column": 1}, "end": {"line": 12, "column": 64}, "value": 6}
+        ]
+      },
+      "scanner/utils/types.py": {
+        "checksum": "f6beb3a93c96fd8f901f423d7024b198",
+        "language": "Python",
+        "loc": 13,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      }
+    }
+  }
+}
