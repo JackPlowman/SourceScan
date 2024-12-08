@@ -1,6 +1,6 @@
 {
   "version": "0.12.1",
-  "uuid": "47986ce2-15d4-4622-a868-a2cddbc13bf8",
+  "uuid": "cdae1716-859b-4f49-8338-9a287af71887",
   "root": "/github/workspace",
   "codebase": {
     "totals": {
@@ -90,7 +90,7 @@
         ]
       },
       "scanner/utils/write_markdown.py": {
-        "checksum": "abf8b74f3cbe1b7fe82c19b0131ce52e",
+        "checksum": "7a8a7eaee9337675aa401e6681cbd6fc",
         "language": "Python",
         "loc": 43,
         "profile": [35, 0, 0, 0],
