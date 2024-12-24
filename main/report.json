@@ -1,12 +1,18 @@
 {
-  "version": "0.14.1",
-  "uuid": "b28002c8-c87f-4c8a-b772-c31c45040bb3",
+  "version": "0.16.0",
+  "uuid": "7a76b0ab-37db-47d2-8b68-4c9a9100a7b7",
+  "timestamp": "2024-12-24T20:02:56+00:00",
   "root": "/github/workspace",
+  "repository": {
+    "owner": "JackPlowman",
+    "name": "source_scan",
+    "branch": "main"
+  },
   "codebase": {
     "totals": {
       "Python": {
         "files": 10,
-        "lines_of_code": 178,
+        "lines_of_code": 131,
         "functions": 17,
         "hard_to_maintain": 0,
         "unmaintainable": 0
@@ -53,7 +59,7 @@
       "scanner/app.py": {
         "checksum": "be3e87ab02c57ec30564f7ed600f050e",
         "language": "Python",
-        "loc": 23,
+        "loc": 18,
         "profile": [18, 0, 0, 0],
         "measurements": [
           {"unit_name": "generate_tech_report", "start": {"line": 10, "column": 1}, "end": {"line": 15, "column": 35}, "value": 6},
@@ -71,7 +77,7 @@
       "scanner/__main__.py": {
         "checksum": "459ad6f1b1fb960928e40b4f26eb4e1f",
         "language": "Python",
-        "loc": 8,
+        "loc": 4,
         "profile": [4, 0, 0, 0],
         "measurements": [
           {"unit_name": "main", "start": {"line": 5, "column": 1}, "end": {"line": 8, "column": 27}, "value": 4}
@@ -80,7 +86,7 @@
       "scanner/utils/read_markdown.py": {
         "checksum": "3bf8e0c0cf64dea7fb0a6024e75d8f77",
         "language": "Python",
-        "loc": 42,
+        "loc": 38,
         "profile": [38, 0, 0, 0],
         "measurements": [
           {"unit_name": "find_technologies_and_frameworks", "start": {"line": 10, "column": 1}, "end": {"line": 34, "column": 39}, "value": 15},
@@ -92,7 +98,7 @@
       "scanner/utils/write_markdown.py": {
         "checksum": "f9a9db14b11f15fd7bc98bc083bf395c",
         "language": "Python",
-        "loc": 48,
+        "loc": 39,
         "profile": [39, 0, 0, 0],
         "measurements": [
           {"unit_name": "write_output_file", "start": {"line": 12, "column": 1}, "end": {"line": 28, "column": 90}, "value": 12},
@@ -107,7 +113,7 @@
       "scanner/utils/github_interactions.py": {
         "checksum": "b677075bb6c9e3958d3352203a0537da",
         "language": "Python",
-        "loc": 35,
+        "loc": 26,
         "profile": [26, 0, 0, 0],
         "measurements": [
           {"unit_name": "retrieve_repositories", "start": {"line": 17, "column": 1}, "end": {"line": 31, "column": 24}, "value": 11},
@@ -125,7 +131,7 @@
       "scanner/utils/custom_logging.py": {
         "checksum": "18340647ef2f27198f91cd2bd3104ba7",
         "language": "Python",
-        "loc": 9,
+        "loc": 6,
         "profile": [6, 0, 0, 0],
         "measurements": [
           {"unit_name": "set_up_custom_logging", "start": {"line": 7, "column": 1}, "end": {"line": 12, "column": 64}, "value": 6}
@@ -134,7 +140,7 @@
       "scanner/utils/types.py": {
         "checksum": "f6beb3a93c96fd8f901f423d7024b198",
         "language": "Python",
-        "loc": 13,
+        "loc": 0,
         "profile": [0, 0, 0, 0],
         "measurements": [
         ]
