@@ -1,12 +1,12 @@
 {
-  "version": "0.17.0",
-  "uuid": "5232d795-3512-4230-93d1-5391839740be",
-  "timestamp": "2025-01-01T13:34:46+00:00",
+  "version": "0.18.1",
+  "uuid": "48f74662-b46f-4c08-aac1-d54125e3c887",
+  "timestamp": "2025-01-09T13:17:01+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
     "name": "source_scan",
-    "branch": "HEAD"
+    "branch": "release-please--branches--main"
   },
   "codebase": {
     "totals": {
