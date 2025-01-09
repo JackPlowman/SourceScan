@@ -1,12 +1,12 @@
 ## CodeLimit Report
 
 ### Overview
-| **Language** | **Files** | **Lines of Code** | **Functions** | **⚠** | **❌** |
+| **Language** | **Files** | **Functions** | **Lines of Code** | **⚠** | **⛌** |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Python | 10 | 131 | 17 | 0 | 0 |
+| Python | 10 | 17 | 131 | 0 | 0 |
 
 ### Summary
-| **Easy / Verbose** | **Hard-to-maintain ⚠** | **Unmaintainable ❌** |
+| **Easy / Verbose** | **Hard-to-maintain ⚠** | **Unmaintainable ⛌** |
 | ---: | ---: | ---: |
 | 100% | 0% | 0% |
 
