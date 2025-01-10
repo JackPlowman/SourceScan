@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "c0a249b2-b5bb-4f49-a3e0-1e90dcb33487",
-  "timestamp": "2025-01-10T08:48:24+00:00",
+  "uuid": "715b8d0a-91da-467d-9f2f-fccec4c89acf",
+  "timestamp": "2025-01-10T13:30:06+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -12,7 +12,7 @@
     "totals": {
       "Python": {
         "files": 10,
-        "lines_of_code": 155,
+        "lines_of_code": 156,
         "functions": 17,
         "hard_to_maintain": 0,
         "unmaintainable": 0
@@ -24,7 +24,7 @@
           "__init__.py",
           "scanner/"
         ],
-        "profile": [122, 33, 0, 0]
+        "profile": [123, 33, 0, 0]
       },
       "scanner/": {
         "entries": [
@@ -33,7 +33,7 @@
           "__main__.py",
           "utils/"
         ],
-        "profile": [122, 33, 0, 0]
+        "profile": [123, 33, 0, 0]
       },
       "scanner/utils/": {
         "entries": [
@@ -44,7 +44,7 @@
           "__init__.py",
           "custom_logging.py"
         ],
-        "profile": [112, 16, 0, 0]
+        "profile": [113, 16, 0, 0]
       }
     },
     "files": {
@@ -57,13 +57,13 @@
         ]
       },
       "scanner/app.py": {
-        "checksum": "69a90138f1ce2fa5a77a89fb177d296e",
+        "checksum": "1699e18e6fdca806fa02870aa158ce8b",
         "language": "Python",
         "loc": 23,
         "profile": [6, 17, 0, 0],
         "measurements": [
-          {"unit_name": "generate_tech_report", "start": {"line": 10, "column": 1}, "end": {"line": 15, "column": 35}, "value": 6},
-          {"unit_name": "summarise_tech_report", "start": {"line": 18, "column": 1}, "end": {"line": 41, "column": 77}, "value": 17}
+          {"unit_name": "generate_tech_report", "start": {"line": 14, "column": 1}, "end": {"line": 19, "column": 35}, "value": 6},
+          {"unit_name": "summarise_tech_report", "start": {"line": 22, "column": 1}, "end": {"line": 45, "column": 82}, "value": 17}
         ]
       },
       "scanner/__init__.py": {
@@ -96,10 +96,10 @@
         ]
       },
       "scanner/utils/write_markdown.py": {
-        "checksum": "4c17135c5d8fa95aa76d1af8423021b8",
+        "checksum": "3f4a338ebf5826da293fabed59be8eaf",
         "language": "Python",
-        "loc": 43,
-        "profile": [43, 0, 0, 0],
+        "loc": 44,
+        "profile": [44, 0, 0, 0],
         "measurements": [
           {"unit_name": "write_output_file", "start": {"line": 12, "column": 1}, "end": {"line": 30, "column": 10}, "value": 14},
           {"unit_name": "__init__", "start": {"line": 38, "column": 5}, "end": {"line": 40, "column": 35}, "value": 3},
@@ -107,7 +107,7 @@
           {"unit_name": "_check_last_line_is_empty", "start": {"line": 47, "column": 5}, "end": {"line": 49, "column": 51}, "value": 3},
           {"unit_name": "add_header", "start": {"line": 51, "column": 5}, "end": {"line": 55, "column": 67}, "value": 5},
           {"unit_name": "add_paragraph", "start": {"line": 57, "column": 5}, "end": {"line": 59, "column": 58}, "value": 3},
-          {"unit_name": "add_table", "start": {"line": 61, "column": 5}, "end": {"line": 71, "column": 43}, "value": 11}
+          {"unit_name": "add_table", "start": {"line": 61, "column": 5}, "end": {"line": 72, "column": 86}, "value": 12}
         ]
       },
       "scanner/utils/custom_types.py": {
