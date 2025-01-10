@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "7103c86d-6d30-485b-9b23-b229a1f3572d",
-  "timestamp": "2025-01-10T20:21:07+00:00",
+  "uuid": "e5847645-062c-47b3-b211-dc9a5d79d0b0",
+  "timestamp": "2025-01-10T21:19:59+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -12,7 +12,7 @@
     "totals": {
       "Python": {
         "files": 10,
-        "lines_of_code": 152,
+        "lines_of_code": 164,
         "functions": 17,
         "hard_to_maintain": 0,
         "unmaintainable": 0
@@ -24,7 +24,7 @@
           "__init__.py",
           "scanner/"
         ],
-        "profile": [135, 17, 0, 0]
+        "profile": [121, 43, 0, 0]
       },
       "scanner/": {
         "entries": [
@@ -33,7 +33,7 @@
           "__main__.py",
           "utils/"
         ],
-        "profile": [135, 17, 0, 0]
+        "profile": [121, 43, 0, 0]
       },
       "scanner/utils/": {
         "entries": [
@@ -44,7 +44,7 @@
           "__init__.py",
           "custom_logging.py"
         ],
-        "profile": [125, 0, 0, 0]
+        "profile": [111, 26, 0, 0]
       }
     },
     "files": {
@@ -96,18 +96,18 @@
         ]
       },
       "scanner/utils/write_markdown.py": {
-        "checksum": "4c17135c5d8fa95aa76d1af8423021b8",
+        "checksum": "e42b8167457d3e423a0c91b1edc833d8",
         "language": "Python",
-        "loc": 43,
-        "profile": [43, 0, 0, 0],
+        "loc": 55,
+        "profile": [29, 26, 0, 0],
         "measurements": [
-          {"unit_name": "write_output_file", "start": {"line": 12, "column": 1}, "end": {"line": 30, "column": 10}, "value": 14},
-          {"unit_name": "__init__", "start": {"line": 38, "column": 5}, "end": {"line": 40, "column": 35}, "value": 3},
-          {"unit_name": "write", "start": {"line": 42, "column": 5}, "end": {"line": 45, "column": 51}, "value": 4},
-          {"unit_name": "_check_last_line_is_empty", "start": {"line": 47, "column": 5}, "end": {"line": 49, "column": 51}, "value": 3},
-          {"unit_name": "add_header", "start": {"line": 51, "column": 5}, "end": {"line": 55, "column": 67}, "value": 5},
-          {"unit_name": "add_paragraph", "start": {"line": 57, "column": 5}, "end": {"line": 59, "column": 58}, "value": 3},
-          {"unit_name": "add_table", "start": {"line": 61, "column": 5}, "end": {"line": 71, "column": 43}, "value": 11}
+          {"unit_name": "write_output_file", "start": {"line": 12, "column": 1}, "end": {"line": 43, "column": 10}, "value": 26},
+          {"unit_name": "__init__", "start": {"line": 51, "column": 5}, "end": {"line": 53, "column": 35}, "value": 3},
+          {"unit_name": "write", "start": {"line": 55, "column": 5}, "end": {"line": 58, "column": 51}, "value": 4},
+          {"unit_name": "_check_last_line_is_empty", "start": {"line": 60, "column": 5}, "end": {"line": 62, "column": 51}, "value": 3},
+          {"unit_name": "add_header", "start": {"line": 64, "column": 5}, "end": {"line": 68, "column": 67}, "value": 5},
+          {"unit_name": "add_paragraph", "start": {"line": 70, "column": 5}, "end": {"line": 72, "column": 58}, "value": 3},
+          {"unit_name": "add_table", "start": {"line": 74, "column": 5}, "end": {"line": 84, "column": 43}, "value": 11}
         ]
       },
       "scanner/utils/custom_types.py": {
