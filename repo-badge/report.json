@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "25e4e8ae-36d7-449a-a0a8-21db7330f7c0",
-  "timestamp": "2025-01-10T08:46:43+00:00",
+  "uuid": "c0a249b2-b5bb-4f49-a3e0-1e90dcb33487",
+  "timestamp": "2025-01-10T08:48:24+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -84,15 +84,15 @@
         ]
       },
       "scanner/utils/read_markdown.py": {
-        "checksum": "011f1fad8f5638b930ca56e11b6df158",
+        "checksum": "de077b3b786e539b026029b0378c77fa",
         "language": "Python",
         "loc": 51,
         "profile": [35, 16, 0, 0],
         "measurements": [
-          {"unit_name": "find_technologies_and_frameworks", "start": {"line": 12, "column": 1}, "end": {"line": 37, "column": 39}, "value": 15},
-          {"unit_name": "find_project_technologies_and_frameworks_header", "start": {"line": 40, "column": 1}, "end": {"line": 58, "column": 42}, "value": 12},
-          {"unit_name": "find_table_data_start_index", "start": {"line": 61, "column": 1}, "end": {"line": 79, "column": 27}, "value": 8},
-          {"unit_name": "find_markdown_badges", "start": {"line": 82, "column": 1}, "end": {"line": 104, "column": 6}, "value": 16}
+          {"unit_name": "find_technologies_and_frameworks", "start": {"line": 14, "column": 1}, "end": {"line": 39, "column": 39}, "value": 15},
+          {"unit_name": "find_project_technologies_and_frameworks_header", "start": {"line": 42, "column": 1}, "end": {"line": 60, "column": 42}, "value": 12},
+          {"unit_name": "find_table_data_start_index", "start": {"line": 63, "column": 1}, "end": {"line": 81, "column": 27}, "value": 8},
+          {"unit_name": "find_markdown_badges", "start": {"line": 84, "column": 1}, "end": {"line": 106, "column": 6}, "value": 16}
         ]
       },
       "scanner/utils/write_markdown.py": {
