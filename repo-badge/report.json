@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "65812eae-a9d5-4d6d-af8b-cb4002483001",
-  "timestamp": "2025-01-10T14:05:41+00:00",
+  "uuid": "667f405e-6287-48d3-872b-c503076b8156",
+  "timestamp": "2025-01-10T14:10:06+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -12,7 +12,7 @@
     "totals": {
       "Python": {
         "files": 10,
-        "lines_of_code": 155,
+        "lines_of_code": 152,
         "functions": 17,
         "hard_to_maintain": 0,
         "unmaintainable": 0
@@ -24,7 +24,7 @@
           "__init__.py",
           "scanner/"
         ],
-        "profile": [122, 33, 0, 0]
+        "profile": [135, 17, 0, 0]
       },
       "scanner/": {
         "entries": [
@@ -33,7 +33,7 @@
           "__main__.py",
           "utils/"
         ],
-        "profile": [122, 33, 0, 0]
+        "profile": [135, 17, 0, 0]
       },
       "scanner/utils/": {
         "entries": [
@@ -44,7 +44,7 @@
           "__init__.py",
           "custom_logging.py"
         ],
-        "profile": [112, 16, 0, 0]
+        "profile": [125, 0, 0, 0]
       }
     },
     "files": {
@@ -84,15 +84,15 @@
         ]
       },
       "scanner/utils/read_markdown.py": {
-        "checksum": "0d1c93697be68a70441dc5d2875f47d8",
+        "checksum": "bf6eff4395c889a4769fa42448de2522",
         "language": "Python",
-        "loc": 51,
-        "profile": [35, 16, 0, 0],
+        "loc": 48,
+        "profile": [48, 0, 0, 0],
         "measurements": [
           {"unit_name": "find_technologies_and_frameworks", "start": {"line": 14, "column": 1}, "end": {"line": 39, "column": 39}, "value": 15},
           {"unit_name": "find_project_technologies_and_frameworks_header", "start": {"line": 42, "column": 1}, "end": {"line": 60, "column": 42}, "value": 12},
           {"unit_name": "find_table_data_start_index", "start": {"line": 63, "column": 1}, "end": {"line": 81, "column": 27}, "value": 8},
-          {"unit_name": "find_markdown_badges", "start": {"line": 84, "column": 1}, "end": {"line": 106, "column": 6}, "value": 16}
+          {"unit_name": "find_markdown_badges", "start": {"line": 84, "column": 1}, "end": {"line": 103, "column": 6}, "value": 13}
         ]
       },
       "scanner/utils/write_markdown.py": {
