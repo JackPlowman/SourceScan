@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "aa2483f9-c43a-406f-8aab-2bd444e25d72",
-  "timestamp": "2025-01-10T22:58:54+00:00",
+  "uuid": "276b63b2-ded5-4eaf-bce0-f04898069806",
+  "timestamp": "2025-01-11T08:14:29+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -96,7 +96,7 @@
         ]
       },
       "scanner/utils/write_markdown.py": {
-        "checksum": "d8bc6528844ce1682386a2132491a21b",
+        "checksum": "c37c8d21a682a066097cac800ccd160e",
         "language": "Python",
         "loc": 58,
         "profile": [29, 29, 0, 0],
